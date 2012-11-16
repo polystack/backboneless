@@ -1,0 +1,7 @@
+To run:
+
+1. Install lighttpd "apt-get install lighttpd"
+2. Modify lighttpd.conf to have the path to the project build dir (it uses absolute paths)
+3. Install "requirejs, less" via npm
+4. Run ops/build.sh
+5. Open http://localhost:1234/index.html
